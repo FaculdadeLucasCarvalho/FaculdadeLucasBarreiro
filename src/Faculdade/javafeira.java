@@ -1,3 +1,5 @@
+package Faculdade;
+
 public class javafeira {
     public static void main(String[] args) {
 

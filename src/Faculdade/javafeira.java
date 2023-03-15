@@ -8,5 +8,7 @@ public class javafeira {
 
         System.out.println(maca + laranja);
 
+
+
     }
 }

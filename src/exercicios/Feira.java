@@ -32,11 +32,5 @@ public class Feira {
         double totalMaca = (quiloMaca * precoMaca);
 
         System.out.println("Valor gasto na feira: " + (totalMaca + totalLaranja));
-
-
-
-
-
-
     }
 }

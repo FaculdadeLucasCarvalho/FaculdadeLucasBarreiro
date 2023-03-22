@@ -11,7 +11,6 @@ public class Exercicio11 {
         double total = nota1 + nota2 + nota3;
         double Exercicio11 = total / 3;
         System.out.println(Exercicio11);
-
     }
 
 }

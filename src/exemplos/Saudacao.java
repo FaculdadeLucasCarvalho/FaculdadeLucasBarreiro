@@ -13,15 +13,7 @@ public class Saudacao {
         teclado.close();
 
 
-        System.out.println("Media final do aluno:");
-
-        double nota1 = 2;
-        double nota2 = 3;
-        double nota3 = 5;
-
-       double total = nota1 + nota2 + nota3;
-       double Resultado = total / 3;
-        System.out.println(Resultado);
+        
 
 
     }

@@ -8,31 +8,26 @@ public class Exercicio10 {
 
         Scanner scan = new Scanner(System.in);
 
-        double valorDeCarrosVendidos = 2500;
-        double valorTotalDeVendas;
-        double salarioFixo = 2000.00;
-        double valorPorCarroVendido;
-        double porcentagemDeVendas = 5 / 100;
+        int carrosVendidos;
+        double totalVendas;
+        double salarioFixo;
+        double comissaoPorCarro;
+        double porcentagemDasVendas = 0.05;
 
-        System.out.println("Quantos carros você vendeu?");
-        valorDeCarrosVendidos = scan.nextInt();
+        System.out.println("Informe o número de carros vendidos: ");
+        carrosVendidos = scan.nextInt();
 
-        System.out.println("Qual foi o seu valor total de vendas?");
-        valorTotalDeVendas = scan.nextInt();
+        System.out.println("Informe o valor total das vendas: ");
+        totalVendas = scan.nextDouble();
 
-        System.out.print("Qual valor do seu salário fixo: ");
+        System.out.println("Informe o salário fixo do vendedor: ");
         salarioFixo = scan.nextDouble();
 
-        System.out.println("Informe a comissão por carro ventido: ");
-        double comissaoPorcarro = scan.nextDouble();
+        System.out.println("Informe a comissão por carros vendidos: ");
+        comissaoPorCarro = scan.nextDouble();
 
-         double salario = salarioFixo + (valorDeCarrosVendidos * comissaoPorcarro) + (valorTotalDeVendas * 0.05);
-
-        System.out.println("O salario do funcionario:");
-
-
-
-
+        double salarioFinal = salarioFixo + (carrosVendidos + comissaoPorCarro) + (totalVendas * porcentagemDasVendas);
+        System.out.println("O valor do salário é de: " + salarioFinal);
 
     }
 }

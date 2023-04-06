@@ -8,10 +8,10 @@ public class ParOuImpar {
 
         Scanner scan = new Scanner(System.in);
 
-        int parOuImpar;
+        long parOuImpar;
 
         System.out.println("Insira um número para descobrir se o número é par ou impar: ");
-        parOuImpar = scan.nextInt();
+        parOuImpar = scan.nextLong();
 
         if (parOuImpar % 2 == 0) {
             System.out.println("O número digitado é par!");
@@ -19,6 +19,6 @@ public class ParOuImpar {
             System.out.println("O número digitado é ímpar!");
         }
 
+
     }
 }
-

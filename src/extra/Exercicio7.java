@@ -35,4 +35,3 @@ public class Exercicio7 {
         System.out.println("Você está com a média de: " + indiceDeMassaCorporal);
     }
 }
-}
